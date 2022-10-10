@@ -2,19 +2,19 @@ const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://srishtisuri.com',
   title: 'SRISHTI SURI',
-}
+};
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Srishti',
-  role: 'Frontend engineer & STEM mentor',
-  description: `It's nice to meet you! I aspire to make a notable impact in my lifetime, professionally and personally. I am extremely passionate about building clean and feature rich frontend applications. At the moment I am focussing on my repertoire of technical skills so that I can become an influential tech leader. I am the happiest when I am helping people and I aim to always bring my burning desire to excel and authentic self to the table.`,
+  role: 'Front End Engineer & STEM Mentor',
+  description: `It's nice to meet you! I aspire to make a notable impact in my lifetime, professionally and personally. I am extremely passionate about building clean and feature rich frontend applications. At the moment I am focussing on my repertoire of technical skills so that I can become an influential tech leader. I am the happiest when I am helping people and I aim to always bring my burning desire to excel and authentic self to the table!`,
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com/in/srishti-suri',
     github: 'https://github.com/srishtisuri',
   },
-}
+};
 
 const projects = [
   // projects can be added an removed
@@ -23,7 +23,7 @@ const projects = [
     name: 'Engineer',
     description:
       'The pure joy (and pain) of problem solving is entrenched in every line of code I have ever written. I take pride in what I create and pursue the highest standard possible. The possibilities are abundant and I hope to combine my love of engineering with my drive to help people around the world.',
-    stack: ['React', 'Javascript', 'CSS'],
+    stack: ['React', 'Javascript', 'Node.js', 'CSS'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -38,12 +38,14 @@ const projects = [
   {
     name: 'Co-Founder @ Kuebik',
     description:
-      'A dream come true, Kuebik is a small digital transformation agency. We have helped to curate the online presence of many small businesses. We are proud to be supporting businesses that are doing good in the community and have worked with disability support providers, mechanics, and physios to name a few.',
+      'A dream come true, Kuebik is a digital transformation agency. We have helped to curate the online presence of many small businesses. We are proud to support businesses that are doing good in the community and have worked with disability support providers, mechanics, and physios to name a few.',
     stack: ['Wordpress', 'Elementor', 'Web Design', 'PHP'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
-]
+];
+
+const experiences = [{ company: '', dates: '', role: '', description: [''] }];
 
 const skills = [
   // skills can be added or removed
@@ -60,11 +62,11 @@ const skills = [
   'AGILE',
   'Jest',
   'Selenium',
-]
+];
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'srishti.suri@outlook.com',
-}
+};
 
-export { header, about, projects, skills, contact }
+export { header, about, experiences, projects, skills, contact };

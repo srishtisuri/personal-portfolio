@@ -1,0 +1,38 @@
+.tab-panel {
+  padding: 20px 100px;
+}
+
+.tab-panel__title {
+  font-weight: 600;
+}
+
+.tab-panel__company {
+  color: var(--clr-primary);
+}
+
+.tab-label {
+  font: 0.9rem 'Poppins', sans-serif !important;
+  color: var(--clr-fg) !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected {
+  color: var(--clr-primary) !important;
+}
+
+.MuiTabs-indicator {
+  background-color: var(--clr-primary) !important;
+}
+
+.MuiTouchRipple-root {
+  display: none !important;
+}
+
+.MuiTabs-flexContainer {
+  justify-content: center !important;
+}
+
+.MuiBox-root.css-10izwvm {
+  box-shadow: var(--shadow) !important;
+}
