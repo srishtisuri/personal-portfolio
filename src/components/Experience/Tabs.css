@@ -1,13 +1,5 @@
 .tab-panel {
-  padding: 20px 100px;
-}
-
-.tab-panel__title {
-  font-weight: 600;
-}
-
-.tab-panel__company {
-  color: var(--clr-primary);
+  padding: 32px;
 }
 
 .tab-label {

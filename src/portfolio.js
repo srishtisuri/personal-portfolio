@@ -7,7 +7,7 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Srishti',
-  role: 'Front End Engineer & STEM Mentor',
+  role: 'Front End Engineer',
   description: `It's nice to meet you! I aspire to make a notable impact in my lifetime, professionally and personally. I am extremely passionate about building clean and feature rich frontend applications. At the moment I am focussing on my repertoire of technical skills so that I can become an influential tech leader. I am the happiest when I am helping people and I aim to always bring my burning desire to excel and authentic self to the table!`,
   resume: 'https://example.com',
   social: {
@@ -36,16 +36,70 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Co-Founder @ Kuebik',
+    name: 'Co-Founder',
     description:
-      'A dream come true, Kuebik is a digital transformation agency. We have helped to curate the online presence of many small businesses. We are proud to support businesses that are doing good in the community and have worked with disability support providers, mechanics, and physios to name a few.',
-    stack: ['Wordpress', 'Elementor', 'Web Design', 'PHP'],
+      'A dream come true, Kuebik is a digital transformation agency. We have helped to curate the online presence of many small businesses. We are proud to support businesses that are doing good in the community such as disability support providers, mechanics, and physios to name a few.',
+    stack: ['Wordpress', 'Web Design', 'PHP'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
 ];
 
-const experiences = [{ company: '', dates: '', role: '', description: [''] }];
+const experiences = [
+  {
+    role: 'Front End Engineer',
+    company: 'Westpac',
+    dates: 'Feb 2020 - PRESENT',
+    details: [
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam tincidunt mauris eu risus. Vestibulum auctor dapibus neque.',
+      'Nunc dignissim risus id metus. Cras ornare tristique elit. Vivamus vestibulum ntulla nec ante. Praesent placerat risus quis eros. Fusce pellentesque suscipit nibh.',
+    ],
+  },
+  {
+    role: 'Co-Founder',
+    company: 'Kuebik',
+    dates: 'Feb 2019 - PRESENT',
+    details: [
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+      'Aliquam tincidunt mauris eu risus.',
+      'Vestibulum auctor dapibus neque.',
+      'Nunc dignissim risus id metus.',
+    ],
+  },
+  {
+    role: 'Information Security Analyst (Co-op)',
+    company: 'Westpac',
+    dates: 'Feb - Jul 2019',
+    details: [
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+      'Aliquam tincidunt mauris eu risus.',
+      'Vestibulum auctor dapibus neque.',
+      'Nunc dignissim risus id metus.',
+    ],
+  },
+  {
+    role: 'Digital Summer Intern',
+    company: 'Macquarie',
+    dates: 'Nov 2018 - Feb 2019',
+    details: [
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+      'Aliquam tincidunt mauris eu risus.',
+      'Vestibulum auctor dapibus neque.',
+      'Nunc dignissim risus id metus.',
+    ],
+  },
+  {
+    role: 'UX Researcher (Co-op)',
+    company: 'IBM iX',
+    dates: 'Jul - Dec 2017',
+    details: [
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
+      'Aliquam tincidunt mauris eu risus.',
+      'Vestibulum auctor dapibus neque.',
+      'Nunc dignissim risus id metus.',
+    ],
+  },
+];
 
 const skills = [
   // skills can be added or removed

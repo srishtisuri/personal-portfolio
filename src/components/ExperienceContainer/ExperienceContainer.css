@@ -1,0 +1,21 @@
+.experience__title {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.experience__company {
+  color: var(--clr-primary);
+}
+
+.experience__details {
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+.experience__details-item:before {
+  content: '▹';
+  position: absolute;
+  margin: 0 -20px;
+  color: var(--clr-primary);
+}
