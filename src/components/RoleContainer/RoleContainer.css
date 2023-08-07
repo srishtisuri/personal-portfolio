@@ -1,4 +1,4 @@
-.project {
+.role {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
@@ -6,28 +6,28 @@
   transition: transform 0.2s linear;
 }
 
-.project:hover {
+.role:hover {
   transform: translateY(-7px);
 }
 
-.project__description {
+.role__description {
   margin-top: 1em;
 }
 
-.project__stack {
+.role__stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
 }
 
-.project__stack-item {
+.role__stack-item {
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
 }
 
-.project .link--icon {
+.role .link--icon {
   margin-left: 0.5em;
 }

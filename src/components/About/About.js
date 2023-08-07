@@ -8,12 +8,8 @@ const About = () => {
   const { name, role, description, resume, social } = about;
 
   return (
-    <div className='about center'>
-      <img
-        className='about__photo'
-        src={SrishtiPhoto}
-        alt='srishti standing in front of wall, wearing white dress'
-      />
+    <div className='about center' id='about'>
+      <img className='about__photo' src={SrishtiPhoto} alt='srishti headshot' />
       {name && (
         <h1>
           Hi, I&apos;m <span className='about__name'>{name}!</span>
@@ -49,6 +45,8 @@ const About = () => {
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
+                target='_blank'
+                rel='noreferrer'
               >
                 <LinkedInIcon />
               </a>

@@ -69,11 +69,11 @@ export default function Tabs() {
           }}
         >
           {/* TODO: refactor this to array.map */}
-          <_Tab className='tab-label' label='westpac' {...a11yProps(0)} />
-          <_Tab className='tab-label' label='kuebik' {...a11yProps(1)} />
-          <_Tab className='tab-label' label='westpac' {...a11yProps(2)} />
-          <_Tab className='tab-label' label='macquarie' {...a11yProps(3)} />
-          <_Tab className='tab-label' label='ibm ix' {...a11yProps(4)} />
+          <_Tab className='tab-label' label='Westpac' {...a11yProps(0)} />
+          <_Tab className='tab-label' label='Kuebik' {...a11yProps(1)} />
+          <_Tab className='tab-label' label='Westpac' {...a11yProps(2)} />
+          <_Tab className='tab-label' label='Macquarie' {...a11yProps(3)} />
+          <_Tab className='tab-label' label='IBM IX' {...a11yProps(4)} />
         </_Tabs>
       </Box>
       {experiences.map((experience, index) => (
