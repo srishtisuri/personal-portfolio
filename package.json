@@ -1,8 +1,8 @@
 {
-  "name": "cleanfolio",
+  "name": "personal-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rajshekhar26.github.io/cleanfolio",
+  "homepage": "http://srishtisuri.com",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
