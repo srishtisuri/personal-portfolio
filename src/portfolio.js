@@ -20,7 +20,7 @@ const roles = [
   // roles can be added an removed
   // if there are no roles, Roles section won't show up
   {
-    name: 'Engineer',
+    name: 'Software Engineer',
     description:
       'The pure joy (and pain) of problem solving is entrenched in every line of code I have ever written. I take pride in what I create and pursue the highest standard possible. The possibilities are abundant and I hope to combine my love of engineering with my desire to give back.',
     stack: ['React', 'Javascript', 'Node.js', 'CSS'],
