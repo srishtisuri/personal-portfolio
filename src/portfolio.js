@@ -1,14 +1,14 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://srishtisuri.com',
+  homepage: 'http://srishtisuri.com',
   title: 'SRISHTI SURI',
 };
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Srishti',
-  role: 'Front End Engineer',
-  description: `It's nice to meet you! I aspire to make a notable impact in my lifetime, professionally and personally. I am extremely passionate about building clean and feature rich frontend applications. At the moment I am focussing on my repertoire of technical skills so that I can excel as a leader in the future. I am a huge people person and I am the happiest when I am helping others. I aim to always bring my burning desire to excel and authentic self to the table!`,
+  role: 'Software Engineer',
+  description: `It's nice to meet you! I aspire to make a notable impact in my lifetime, professionally and personally. I am extremely passionate about building clean and feature rich applications. At the moment I am focussing on my repertoire of technical skills so that I can excel as a leader in the future. I am a huge people person and I am the happiest when I am helping others. I aim to always bring my burning desire to excel and authentic self to the table!`,
   resume: '',
   social: {
     linkedin: 'https://linkedin.com/in/srishti-suri',
