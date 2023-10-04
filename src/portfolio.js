@@ -16,6 +16,21 @@ const about = {
   },
 };
 
+const links = [
+  {
+    label: 'From UTS to Westpac',
+    href: 'https://careersblog.uts.edu.au/from-intern-to-trailblazer-uts-alums-journey-at-westpac/'
+  },
+  {
+    label: 'Sourcing an internship',
+    href: 'https://careersblog.uts.edu.au/how-to-find-an-internship-youll-love-insights-from-uts-alumni/'
+  },
+  {
+    label: 'Vim Shortcuts App',
+    href: 'https://srishtisuri.github.io/vim-shortcuts-app/'
+  }
+];
+
 const roles = [
   // roles can be added an removed
   // if there are no roles, Roles section won't show up
@@ -102,14 +117,19 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
+  'NodeJS',
   'React',
-  'Redux',
+  'RTK/Redux Saga',
   'Git',
-  'CI/CD',
-  'Scrum',
+  'DevSecOps',
+  'Agile',
+  'Bash',
   'Jest',
-  'Selenium',
-  'React Testing Library',
+  'Codecept',
+  'Enzyme/RTL',
+  'Public Speaking',
+  'Stakeholder Engagement',
+  'Framework Engineering',
 ];
 
 const contact = {
@@ -117,4 +137,4 @@ const contact = {
   email: 'srishti.suri@outlook.com',
 };
 
-export { header, about, experiences, roles, skills, contact };
+export { header, about, links, experiences, roles, skills, contact };

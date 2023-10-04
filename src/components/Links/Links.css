@@ -1,0 +1,10 @@
+.links {
+  flex-direction: column;
+}
+
+.links-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 1rem;
+}
